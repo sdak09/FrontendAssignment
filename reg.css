@@ -1,0 +1,107 @@
+.topnav {
+  overflow: hidden;
+  color: white;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+body {
+  background-image: url("https://t4.ftcdn.net/jpg/03/57/34/39/360_F_357343965_u58BFcRrziBVMqgt6liwPHJKcIjHsPnc.jpg");
+  background-size: cover;
+}
+
+.container {
+  border-radius: 20px;
+  width: 900px;
+  height: 557px;
+  margin-top: 0px;
+}
+
+.row {
+  padding: 20px;
+  margin-top: 5px;
+  width: 400px;
+  margin-right: 10px;
+  background-color: white;
+  color: black;
+  font-size: large;
+  border-radius: 50px;
+}
+#d1 {
+  margin-left: 320px;
+  background: transparent;
+}
+
+#d3 {
+  width: 240px;
+}
+#d3:hover {
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: azure;
+  margin-top: 10px;
+}
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 10px;
+  font-size: 50px;
+  color: rgb(4, 63, 71);
+  margin-left: 10px;
+}
+#img1 {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+#img1:hover {
+  animation: mymove 6s 1;
+  cursor: pointer;
+}
+#logo {
+  display: inline-flex;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#d2 {
+  font-weight: bold;
+}
+#s1 {
+  color: white;
+  background-color: #0d6efd;
+}
+#s1:hover {
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+h2:hover {
+  color: rgb(227, 237, 238);
+  transition: 0.5s;
+  cursor: pointer;
+}
+@keyframes mymove {
+  50% {
+    transform: rotate(360deg);
+  }
+}
